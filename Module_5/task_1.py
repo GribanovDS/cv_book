@@ -18,7 +18,6 @@ class Vertical:
     def reproject_point_2d_to_3d_on_floor(self, point2d: None):
         """
         Проецирование 2d точек в 3d координаты.
-
         (Только для точек, принадлежащих плоскости земли.)
         """
         if point2d is None:
@@ -128,4 +127,3 @@ if __name__ == '__main__':
     s = Reader()
     s.initialize(**init_args)
     s.run()
-    print('Done!')
